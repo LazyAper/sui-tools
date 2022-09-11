@@ -3,6 +3,7 @@
 - `monitor.sh`: notify the Sui network states.
 - `genesis-updater.sh`: detect, download new `genesis.blob` file and upgrade the Sui container if the `genesis.blob` file is updated
 
+## How to use
 1. Clone this repo.
 2. Copy all files to your Sui folder, that overrides your `docker-compose.yml` file. Refer to https://github.com/MystenLabs/sui/tree/main/docker/fullnode
 3. Run your fullnode as normal with the new `docker-compose.yml`.
