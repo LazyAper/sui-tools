@@ -42,7 +42,7 @@ do
     echo "$NOW - Current Txs: $TOTAL_TXS"
   else
     ((STUCK++))
-    notify "<code>$NOW</code>"$'\n'"Sui node got stuck $STUCK times at TX: $TOTAL_TXS"
+    notify "<code>$NOW</code>"$'\n'"Got stuck $STUCK times at TX: $TOTAL_TXS"
     echo "$NOW - Got stuck $STUCK times at TX: $TOTAL_TXS, notifying.."
   fi
 done
